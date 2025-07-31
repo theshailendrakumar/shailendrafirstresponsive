@@ -1,0 +1,1231 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+ font-family: "Poppins", sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#nav{
+width: 100%;
+min-height: 20vh;
+/* background-color: rgb(209, 209, 89); */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+
+#nav .icon{
+margin-left: 8vw;
+}
+
+#nav .icon img{
+    margin: auto;
+    width: 25%;
+    object-fit: contain;
+}
+
+
+#nav .links{
+    margin-right: 8vw;
+}
+
+#nav .links ul{
+    display: flex;
+    flex-direction: row;
+  
+
+}
+
+#nav .links ul li{
+    list-style-type: none;
+    margin-left: 3vw;
+    text-decoration: none;
+}
+
+.links ul li .link-of-nav{
+    text-decoration: none;
+    color: black;
+    transition: all ease .4s;
+}
+
+.links ul li .nav1:hover{
+border-bottom: 2px solid black;
+}
+
+.links ul li .nav2{
+    padding: 8px 15px;
+    border: 2px solid rgb(161, 61, 255);
+    border-radius: 20px;
+    color: rgba(136, 0, 136, 0.808);
+    transition: all ease .4s;
+}
+
+.links ul li .nav2:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+
+.menu-icon{
+    display: none;
+}
+
+
+
+/* This is the introduction part  */
+
+.intro{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro .main-heading{
+    width: 80%;
+    font-size: 2.6rem;
+    text-align: center;
+    /* text-align: center; */
+    font-weight: 700;
+    color: rgb(66, 66, 66);
+    margin-top: 12vh;
+}
+
+.intro .second-heading{
+    width: 80%;
+    text-align: center;
+    padding-top: 1.4rem;
+    font-size: 1.2rem;
+    font-weight: 500px;
+}
+
+.intro .img{
+    margin-top: 10vh;
+}
+
+.intro .image2{
+    margin-top: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.intro .image2 .img1{
+    width: 100%;
+    margin: auto;
+}
+
+
+/* here is a bio section of website */
+.bio{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #6E07F3;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10vh 10vh;
+}
+
+.bio h2{
+    margin-top: 3rem;
+    /* padding-top: 1rem; */
+    width: 100%;
+    font-size: 1.8rem;
+
+}
+
+.bio p{
+    margin:  0 auto 0 auto;
+    width: 60%;
+    font-size: 1.2rem;
+}
+
+
+/* Here is about section of website */
+
+.about{
+    width: 100%;
+ min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.container{
+    width: 87%;
+
+    margin: 0 auto 0 auto;
+    position: relative;
+    top: -150px;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    border-radius: 2rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.column{
+    width:390px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 3rem 1rem;
+    margin:  0 auto 0 auto;
+    border-left: 1px solid rgba(197, 197, 197, 0.438) ;
+    background-color: white;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.column1{
+border-top-left-radius: 2rem;
+border-bottom-left-radius: 2rem;
+}
+
+.column2{
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+
+}
+
+.column h2{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+      font-family: "Lato", sans-serif;
+}
+
+.column .line1,.line2 ,.line3,.line4,li{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+
+.column .line1{
+    margin: 0 auto 0 auto;
+    width: 90%;
+}
+
+
+
+.column div{
+    padding: .7rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.column div .line2,.line4{
+    color: #6E07F3;
+    font-size: 1.1rem;
+}
+
+.column div li{
+    list-style: none;
+}
+
+.column span{
+  width: 80px;
+  height: 80px;
+  background-color: #5BE9B9 !important;
+    /* height: 20vh; */
+    margin: 0 auto 0 auto;
+display: flex;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+}
+
+.column span img{
+    margin: auto;
+    width: 40px ;
+    height: 40px;
+    object-position: center;
+    object-fit: contain;
+    /* background-color: #6E07F3; */
+    /* border-radius: 50%; */
+}
+
+
+
+/* Here is the works section */
+
+
+.work{
+
+    width: 100%;
+    display: flex;
+    min-height: 70vh;
+    flex-direction: column;
+
+    padding-bottom: 2rem;
+    /* align-items: center;
+    justify-content: center; */
+    border: .5px solid rgb(189, 189, 189);
+}
+
+.work .work-header{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.work .work-header h2{
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+.work .work-header p{
+    font-size: 1.1rem;
+    padding-top: 1rem;
+text-align: center;
+}
+
+
+.work .work-footer{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 90%;
+    min-height: 25vh;
+    gap: 1rem;
+    margin: 0 auto 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.work .work-footer .work-container{
+    position: relative;
+
+    /* padding-top: 3rem; */
+    width: 350px;
+    min-height: 25vh;
+    border-radius: 2rem;
+    
+}
+
+.work-footer .work-container figcaption{
+    width: 100%;
+    border-radius: 2rem;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    opacity: 0;
+    padding: 2rem 1rem;
+    position: absolute;
+    transition: .6s;
+}
+
+.work-container figcaption p{
+text-align: center;
+color: white;
+padding: 1rem;
+transition: .4s;
+}
+
+
+.work-container figcaption .work-link{
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px ;
+    text-align: center;
+    border-radius: 2rem;
+    border: 2px solid #5BE9B9;
+ 
+}
+
+.work-container figcaption .work-link:hover{
+    background-color: #5BE9B9;
+    color: black;
+}
+
+
+.work-container img{
+border-radius: 2rem;
+    width: 100%;
+
+}
+
+.work-container img:hover{
+  opacity: .5;   
+}
+
+
+.work-container:hover figcaption{
+    z-index: 22;
+    /* font-size: 1.2rem; */
+    background-color: #2c0066;
+    opacity: 1;
+}
+
+
+.work-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 3rem ;
+    height: 4vh;
+}
+
+.work-bottom a{
+ 
+
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 20px;
+    border: 2px solid #6E07F3;
+    border-radius: 2rem;
+    transition: .6s;
+    color: black;
+}
+
+
+.work-bottom a:hover{
+    background-color: #6E07F3;
+    color: white;
+
+}
+
+
+/* .partner with comapany  */
+
+.company{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.company .company-header h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 90%;
+    text-align: center;
+    margin:  0 auto 0 auto;
+}
+
+.columns-com{
+width: 95%;
+min-height: 40vh;
+}
+
+.column-company{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* padding: 2rem; */
+    padding-top: 2rem;
+    gap: 1rem;
+}
+
+
+.column-company .bx1{
+    width: 250px;
+    /* background-color: #5BE9B9; */
+
+}
+
+.column-company .bx1  figure{
+    width: 100%;
+}
+
+.column-company .bx1 figure img{
+    width: 100%;
+}
+
+
+/* here is my project and startup area  */
+.startup{
+    width: 100%;
+    min-height: 80vh;
+    background-color: #6E07F3;
+    display: flex;
+flex-direction: column;
+gap: 1rem;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.startup .project-heading{
+    text-align: center;
+    color: white;
+    margin-top: 15vh;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.startup .project-para{
+width: 60%;
+text-align: center;
+color: rgb(211, 211, 211);
+font-size: 1.2rem;
+}
+
+
+/* .this is the section of project area */
+.project-area{
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    min-height: 100vh;
+}
+
+.project-area .project-collection{
+    position: relative;
+    top: -130px;
+width: 90%;
+flex-wrap: wrap;
+gap: 2rem;
+display: flex;
+flex-direction: row;
+margin: auto;
+}
+
+.project-area .project-collection .project-item{
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    min-height: 50vh;
+    flex-direction: column;
+    border-radius: 1rem;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    padding: 2rem 2rem;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.project-collection .project-item2{
+   transform: translatey(-19px);
+}
+
+.project-item figure{
+    width: 70%;
+    margin: 0 auto 0 auto;
+}
+
+.project-item figure img{
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.project-item  p{
+    color: rgb(63, 63, 63);
+    text-align: center;
+    padding-bottom: 1rem;
+    
+}
+
+.project-item a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    background-color: #d8bbff;
+    padding: 3px 6px;
+    border: 12px;
+}
+
+.project-item a span{
+    gap: 7px;
+    display: flex;
+    color: rgb(37, 37, 37);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+svg{
+    width: 20px;
+    color: black;
+}
+
+
+/* here is the hire part of or start conversation part of the website */
+.hire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem 0rem;
+    width: 100%;
+    min-height: 70vh;
+}
+
+.hire .hire-heading{
+    width:80%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+
+.hire .hire-para{
+    width: 90%;
+    text-align: center;
+    font-size: 1.1rem;
+    color: rgb(37, 37, 37);
+        }
+
+.hire .link-box{
+    width: 100%;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hire .link-box a{
+    /* width: 30px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #2c0066;
+    gap: .4rem;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border: 1.9px solid black;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: white;
+    transition: .5s;
+}
+
+.hire .link-box a:hover{
+    background-color: rgb(212, 212, 212);
+    box-shadow:  1px 1px 12px #6E07F3;
+}
+
+.hire .link-box a img{
+    width: 30px;color: #6E07F3;
+}
+
+
+/* here is testimonials/ */
+
+.testimonials{
+    display: flex;
+    width: 100%;
+    height: 110vh;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+    justify-content: center;
+    gap: 1.4rem;
+}
+
+
+.testimonials h3{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.testimonials .good{
+    font-size: 1.1rem;
+    color: #4b4b4b;
+}
+
+.testimonials .div1{
+    width: 50%;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.testimonials div img{
+    width: 19%;
+}
+
+.testimonials .about-team{
+    width: 50%;
+    font-size: 1.4rem;
+    color: #252525;
+    text-align: center;
+}
+
+
+/* .footer area o  */
+footer{
+    background-color: #6E07F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .start{
+    position: relative;
+    width: 90%;
+    min-height: 20vh;
+    display: flex;
+    top: -65px;
+    padding: 2rem 0rem;
+    align-items: center;
+    justify-content: space-around;
+background-color: #000a38;
+border-radius: 1rem;
+color: white;
+}
+
+
+footer .start h2{
+    font-size: 1.6rem;
+}
+
+footer .start p{
+    width: 35%;
+    text-align: center;
+}
+
+footer .start .lets-do-it{
+    padding: .5rem 2rem;
+    border: 2px solid white;
+    border-radius: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: .6s;
+}
+
+footer .start .lets-do-it:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 1px 2px 12px white;
+}
+
+
+footer .footer-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.footer-area p{
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+
+.footer-area .footer-link{
+    display: flex;
+    padding: 2rem ;
+    justify-content: space-around;
+    gap: 4rem;
+}
+
+.footer-link .link-bx{
+    border: 2px solid rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    border-radius: 2rem;
+
+
+}
+
+
+.link-bx a{
+      display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center; 
+}
+
+.link-bx a svg{
+    color: white;
+width: 50px;
+height: 50px;
+padding: .9rem;
+    
+    /* padding: 3px2; */
+}
+
+.link-bx:hover{
+    background-color: white;
+}
+
+.link-bx svg:hover{
+    /* background-color: white; */
+    color: #6E07F3;
+}
+
+
+.footer-area .bottom-footer p{
+text-align: center;
+color: rgb(212, 212, 212);
+}
+
+
+.footer-area .bottom-footer h4{
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    padding-bottom: 1rem;
+}
+
+
+
+
+/* here is start media query */
+
+
+@media (max-width:1000px) and (min-width : 800px){
+    .about{
+        width: 100%;
+
+    }
+
+    .about .container{
+        width: 90%;
+        padding: 3rem 2rem;
+
+    }
+
+
+    .column{
+        width: 100%;
+        border-bottom:1px solid black;
+        /* background-color: #000a38; */
+        min-height: 50vh;
+        gap:1rem;
+        border-radius: 2rem;
+    }
+
+    .work .work-footer{
+        width: 100%;
+        padding: 3rem 2rem;
+    }
+
+    .work .work-footer .work-container{
+        display: block;
+  
+     
+        width: 100%;
+        min-height: 30vh;
+
+    }
+
+
+    .work .work-footer .work-container figcaption p{
+        font-size: 1.8rem;
+    }
+
+    .work-container figcaption a{
+        font-size: 1.3rem;
+    }
+
+    .work .work-bottom a{
+        font-size: 1.7rem;
+        
+    }
+}
+
+@media (max-width:800px) and (min-width : 550px){
+        .about{
+        width: 100%;
+
+    }
+
+    .about .container{
+        width: 90%;
+        padding: 3rem 2rem;
+
+    }
+
+
+    .column{
+        width: 100%;
+        border-bottom:1px solid black;
+        /* background-color: #000a38; */
+        min-height: 50vh;
+        gap:1rem;
+        border-radius: 2rem;
+    }
+
+    .work .work-footer{
+        width: 100%;
+        padding: 3rem 2rem;
+    }
+
+    .work .work-footer .work-container{
+        display: block;
+  
+     
+        width: 100%;
+        min-height: 30vh;
+
+    }
+
+
+    .work .work-footer .work-container figcaption p{
+        font-size: 1.8rem;
+    }
+
+    .work-container figcaption a{
+        font-size: 1.3rem;
+    }
+
+    .work .work-bottom a{
+        font-size: 1.7rem;
+        
+    }
+
+    .intro .img2{
+        width: 500px;
+        padding: 0 2rem;
+        margin: 0 0;
+    }
+
+
+    .startup .project-heading {
+font-size: 2rem;
+    }
+
+    .startup .project-para{
+        width: 80%;
+        font-size: 1.2rem;
+    }
+
+
+    .project-area .project-collection{
+        width: 90%;
+        /* background-color: #000a38; */
+    }
+
+    .project-area .project-collection .project-item{
+        width: 100%;
+    }
+
+    .project-collection .project-item p{
+        font-size: 1.4rem;
+    }
+
+    .bio{
+        padding: 1rem ;
+    }
+
+    .bio p{
+        width: 100%
+    }
+
+    .hire .hire-heading{
+        font-size: 1.9rem;
+        width: 90%;
+    }
+
+    .hire .hire-para{
+        width: 80%;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .testimonials{
+        padding: 5rem 0 ;
+        min-height: 90vh;
+    }
+
+    .testimonials h3{
+        font-size: 2rem;
+    }
+
+    .testimonials .good{
+        width: 90%;
+        margin:0 auto 0 auto;
+        font-size: 1.2rem;
+        padding-left: 2rem;
+    }
+
+    .testimonials .div1 img{
+        width: 50%;
+    }
+
+    .testimonials .about-team{
+        width: 90%;
+        font-size: 1.3rem;
+    }
+
+    footer .start{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    footer .start p{
+        width: 90%;
+    }
+}
+
+
+@media (max-width:550px) and (min-width : 350px){
+
+
+    #nav{
+        justify-content: space-around;
+        padding: 0;
+    }
+  #nav .icon{
+    margin: 0;
+}
+
+#nav .menu-icon i{
+    font-size: 2rem;
+}
+
+#nav .icon img{
+    margin: 0;
+}
+
+
+/* .links{
+    display: none;
+} */
+
+
+ #nav .links ul{
+        position: absolute;
+        top: 000px;
+
+        left: 00px;
+        /* height: 20vh; */
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        background: #9ed5ff;
+        gap: 0;
+        overflow: hidden;
+    }
+    #nav .links ul li{
+        padding: 20px;
+        /* margin: 2rem; */
+        padding-top: 0;
+        color: white;
+    }
+
+
+    .menu-icon{
+        display: block;
+        z-index: 2222;
+    }
+    #menuList{
+        /* width: 100%; */
+        /* padding-top: 2rem; */
+        transition: all 0.5s;
+    }
+
+
+           .about{
+        width: 100%;
+
+    }
+
+    .about .container{
+        width: 90%;
+        /* padding: 3rem 2rem; */
+
+    }
+
+    .about .container .column{
+        padding: 2rem 0;
+    }
+
+
+    .column{
+        width: 100%;
+        border-bottom:1px solid black;
+        /* background-color: #000a38; */
+        min-height: 50vh;
+        gap:1rem;
+        border-radius: 2rem;
+    }
+
+    .work .work-footer{
+        width: 100%;
+        padding: 3rem 2rem;
+    }
+
+    .work .work-footer .work-container{
+        display: block;
+  
+     
+        width: 100%;
+        min-height: 30vh;
+
+    }
+
+
+    .work .work-footer .work-container figcaption p{
+        font-size: 1.8rem;
+    }
+
+    .work-container figcaption a{
+        font-size: 1.3rem;
+    }
+
+    .work .work-bottom a{
+        font-size: 1.7rem;
+        
+    }
+
+    .intro .img2{
+        width: 500px;
+        padding: 0 2rem;
+        margin: 0 0;
+    }
+
+    .startup{
+        min-height: 100vh;
+        border-top-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+    }
+
+
+    .startup .project-heading {
+font-size: 2rem;
+    }
+
+    .startup .project-para{
+        width: 80%;
+        font-size: 1.2rem;
+    }
+
+
+    .project-area .project-collection{
+        width: 90%;
+        /* background-color: #000a38; */
+    }
+
+    .project-area .project-collection .project-item{
+        width: 100%;
+    }
+
+    .project-collection .project-item p{
+        font-size: 1.4rem;
+    }
+
+    .bio{
+        padding: 1rem ;
+    }
+
+    .bio p{
+        width: 100%
+    }
+
+    .hire .hire-heading{
+        font-size: 1.9rem;
+        width: 90%;
+    }
+
+    .hire .hire-para{
+        width: 80%;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .testimonials{
+        padding: 5rem 0 ;
+        min-height: 90vh;
+    }
+
+    .testimonials h3{
+        font-size: 2rem;
+    }
+
+    .testimonials .good{
+        width: 90%;
+        margin:0 auto 0 auto;
+        font-size: 1.2rem;
+        padding-left: 2rem;
+    }
+
+    .testimonials .div1 img{
+        width: 50%;
+    }
+
+    .testimonials .about-team{
+        width: 90%;
+        font-size: 1.3rem;
+    }
+
+    footer .start{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    footer .start p{
+        width: 90%;
+    }
+
+       footer .footer-area{
+        width: 100%;
+        /* background-color: #000a38; */
+       }
+
+   footer .footer-area p{
+width: 90%;
+padding: 0;
+text-align: center;
+margin: 0;
+   }
+
+
+
+   footer .footer-area .footer-link{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding: 2rem 0;
+   }
+}
+
